@@ -1,0 +1,17 @@
+{
+    "name": "ydtb/ydtb-boilerplate",
+    "type": "wordpress-plugin",
+    "license": "GPLv3 or later",
+    "autoload": {
+        "psr-4": {
+            "YDTBBP\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Kraczek",
+            "email": "john@kraczek.com"
+        }
+    ],
+    "require": {}
+}

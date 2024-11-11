@@ -1,0 +1,28 @@
+{
+  "name": "ydtb-test-deploy",
+  "version": "0.4.21",
+  "license": "MIT",
+  "private": true,
+  "description": "YDTB Elementor Widgets",
+  "homepage": "https://yourdigitaltoolbox.com",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "authors": [
+    {
+      "name": "John Kraczek",
+      "email": "john@yourdigitaltoolbox.com"
+    }
+  ],
+  "devDependencies": {
+    "@release-it/bumper": "^6.0.1",
+    "release-it": "^17.10.0"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "extends @roots/browserslist-config"
+  ]
+}
