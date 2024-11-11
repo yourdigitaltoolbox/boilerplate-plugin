@@ -27,7 +27,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    if: github.ref == 'refs/heads/master'
     steps:
       # setting the environment variable for the PAT_TOKEN is the only way to get the next step deploy to trigger.
       - name: Checkout
