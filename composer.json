@@ -9,8 +9,8 @@
     },
     "authors": [
         {
-            "name": "John Kraczek",
-            "email": "john@kraczek.com"
+            "name": "<AUTHOR NAME>",
+            "email": "AUTHOR@EMAIL.COM"
         }
     ],
     "require": {}

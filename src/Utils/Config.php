@@ -14,7 +14,7 @@ class Config
             'plugin_slug' => plugin_basename(file: $plugin_folder),
             'plugin_path' => plugin_dir_path(file: $plugin_folder),
             'plugin_url' => plugin_dir_url(file: $plugin_folder),
-            'update_url' => 'https://exampleorg.github.io/ydtb-boilerplate/manifest.json',
+            'update_url' => '<MANIFEST_JSON>',
             'version' => get_file_data($plugin_file, array('Version'), 'plugin')[0]
         ];
 

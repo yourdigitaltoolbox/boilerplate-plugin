@@ -43,6 +43,52 @@ To adapt this boilerplate plugin to your own needs, you will need to make the fo
     Update the `https://exampleorg.github.io/ydtb-boilerplate/manifest.json` to the location of your github pages mainfest.json file.
     This will be used to check for updates.
 
+Here are a few strings that you can use find/replace to get started:
+ydtb-boilerplate : This is the Text-Domain and the plugin slug. You can change this to whatever you like it should be unique across all plugins installed.
+
+ydtb/ydtb-boilerplate
+     This is the vendor/slug for the plugin it can be found in the composer.json file.
+
+plugin-loader.php 
+     This is the main file that loads the plugin. this file should be renamed to the plugin slug, and should be renamed where it is used in the plugin folder as well. 
+
+%Boilerplate Plugin% 
+     This is the name of the plugin in string format. This is used in the admin notice if the vendor directory does not exist.
+
+#boilerplate-plugin#
+     this is the slug as it is used in the manifest file. It would be the same as the plugin slug used by wordpress.org if you were to publish the plugin there.
+
+YDTBBP 
+     This is the namespace for the plugin.
+
+`<AUTHOR NAME>`
+     This is the author name that will be used in the plugin header. This should be your name or your company name.
+
+`<AUTHOR PROFILE>`
+     This is the author profile that will be used in the plugin header. This should be your website or your company website.
+     It should be a full URL.
+
+`<AUTHOR URI>`
+    This is the author URI that will be used in the plugin header. This should be your website or your company website.
+
+`<HOMEPAGE>`
+     This is the homepage for the plugin.
+     This should be a full URL.
+
+`<ADDED DATE>`
+     This is the date that the plugin was added to the repository.
+
+`<DESCRIPTION>`
+    This is the description of the plugin. This should be a short description of what the plugin does.
+
+`<MANIFEST_JSON>`
+    As an example:
+    `https://exampleorg.github.io/ydtb-boilerplate/manifest.json`
+    This is the URL to the manifest file that will be used to update the plugin. It shoudld be replaced with the URL to your own manifest file in your github.
+
+
+
+
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request.
